@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@config/*": ["./src/libs/config/*"],
+      "@shared": ["./src/libs/shared"],
+      "@shared/*": ["./src/libs/shared/*"],
+      "@forms": ["./src/libs/forms"],
+      "@forms/*": ["./src/libs/forms/*"],
+      "@utils/*": ["./src/libs/utils/*"],
+      "@models/*": ["./src/libs/models/*"],
+      "@variables": ["./src/libs/variables"],
+      "@languages": ["./src/libs/languages"],
+      "@routing": ["./src/libs/routing"],
+
+      "@hocs": ["./src/libs/hocs"],
+      "@hooks/*": ["./src/libs/hooks/*"],
+      "@context": ["./src/libs/context"],
+
+      "@public": ["./public"],
+      "@public/*": ["./public/*"],
+      "@client/*": ["./client/*"],
+
+      "@settings": ["./src/settings"],
+
+      "@ui/*": ["./src/ui/*"],
+      "@features": ["./src/features"],
+      "@features/*": ["./src/features/*"],
+      "@router": ["./src/router"],
+      "@theme": ["./src/theme"],
+      "@store": ["./src/store"],
+
+      "@tests": ["./__tests__"],
+      "@tests/*": ["./__tests__/*"]
+    }
+  },
+  "include": ["./"]
+}
